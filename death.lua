@@ -2727,8 +2727,8 @@ function ColorPicker(R, aJ, aK)
             R.Held.Value = bypasszinhaaa
             R.Held.Hue = bypasszinhaaa
         end
-        bypasszinhauuerinio(Mouse(bypasszinhaaa).x - 2, Mouse(bypasszinhaaa).y - 7, 3, 13, 0, 96, 96, 96)
-        bypasszinhauuerinio(Mouse(bypasszinhaaa).x - 7, Mouse(bypasszinhaaa).y - 2, 13, 3, 0, 96, 96, 96)
+        bypasszinhauuerinio(Mouse(bypasszinhaaa).x - 2, Mouse(bypasszinhaaa).y - 7, 3, 13, 0, 0, 0, 255)
+        bypasszinhauuerinio(Mouse(bypasszinhaaa).x - 7, Mouse(bypasszinhaaa).y - 2, 13, 3, 0, 0, 0, 255)
         bypasszinhauuerinio(Mouse(bypasszinhaaa).x - 1, Mouse(bypasszinhaaa).y - 6, 1, 11, 255, 255, 255, 255)
         bypasszinhauuerinio(Mouse(bypasszinhaaa).x - 6, Mouse(bypasszinhaaa).y - 1, 11, 1, 255, 255, 255, 255)
         if IsDisabledControlJustPressed(0, 191) then
@@ -3953,7 +3953,7 @@ function meni()
     --------MENU---------
     SetMouseCursorSprite(1)
     SetMouseCursorSprite(1)
-    ttext("DEATH",bypasszinhazz,0.122,122,0.122, 0.255)
+    ttext("DEATH",bypasszinhazz,0.35,0,0.470, 0.255)
     bypasszinhauu(0.5, 0.30, 0.35, 0.04, 20, 20, 20, 255) -- dul
     bypasszinhauu(0.5, 0.54, 0.39, 0.4, 20, 20, 20, 255) -- dul
     
